@@ -30,10 +30,3 @@ function closePopup(){
 
 
 //// for first page= to  ////////
-
-
-
-
-
-
-
