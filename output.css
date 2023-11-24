@@ -1,7 +1,7 @@
 @import url(https://fonts.google.com/specimen/Space+Grotesk);
 
 /*
-! tailwindcss v3.3.3 | MIT License | https://tailwindcss.com
+! tailwindcss v3.3.5 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -41,10 +41,8 @@ html {
   /* 1 */
   -webkit-text-size-adjust: 100%;
   /* 2 */
-  -moz-tab-size: 4;
   /* 3 */
-  -o-tab-size: 4;
-     tab-size: 4;
+  tab-size: 4;
   /* 3 */
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   /* 4 */
@@ -367,13 +365,6 @@ textarea {
 1. Reset the default placeholder opacity in Firefox. (https://github.com/tailwindlabs/tailwindcss/issues/3300)
 2. Set the default placeholder color to the user's configured gray 400 color.
 */
-
-input::-moz-placeholder, textarea::-moz-placeholder {
-  opacity: 1;
-  /* 1 */
-  color: #9ca3af;
-  /* 2 */
-}
 
 input::placeholder,
 textarea::placeholder {
@@ -823,8 +814,7 @@ video {
 }
 
 .object-cover{
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .p-1{
@@ -1152,6 +1142,25 @@ input{
   text-decoration: none;
 }
 
+.eilte1{
+  color: #F9F9FF;
+  width: 168.009px;
+  height: 61.009px;
+  padding: 18.075px 29.433px;
+  border-radius: 44.164px;
+  border: 1.813px solid var(--neutral-colors-white, #FFF);
+  box-shadow: 0px 4px 10px 0px rgba(20, 20, 43, 0.04);
+}
+
+.eilte1:hover {
+  border: solid rgb(238, 181, 131)1px;
+  background: #e6ad7b;
+  background-image: -o-linear-gradient(top, #F5811E, #F5811E);
+  background-image: -webkit-gradient(to bottom, #F5811E, #F5811E);
+  border-radius: 7px;
+  text-decoration: none;
+}
+
 .cusy{
   background: var(--neutral-colors-white, #FFF);
   width: 168.009px;
@@ -1223,18 +1232,10 @@ input{
   text-decoration: none;
 }
 
-firstContainer{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  display: none;
-}
-
 .popup{
   border-radius: 6px;
   position: absolute;
-  top: 210%;
+  top: 220%;
   left: 50%;
   transform: translate(-50%,-50%) scale(0.1);
   text-align: left;
